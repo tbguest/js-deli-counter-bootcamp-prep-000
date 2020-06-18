@@ -43,5 +43,5 @@ function currentLine(line) {
   }
 }
 
-console.log(currentLine('f','g','h','u'))
+console.log(currentLine(['f','g','h','u']))
 
