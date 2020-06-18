@@ -22,6 +22,6 @@ function nowServing(line) {
   }
 }
 
-console.log(nowServing(['q','d','h']))
+console.log(nowServing(['q']))
 
 
