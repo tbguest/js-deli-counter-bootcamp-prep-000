@@ -14,4 +14,4 @@ function nowServing(line) {
   return line.slice(1)
 }
 
-console.log(nowServing)
+console.log(nowServing([0,1,2,3]))
