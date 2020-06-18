@@ -35,4 +35,5 @@ function currentLine(line) {
   return line
 }
 
+console.log(currentLine('f','g','h'))
 
