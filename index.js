@@ -12,10 +12,10 @@ function takeANumber(line, name) {
 console.log(takeANumber(['q','s','u'], 'Ada'))
 
 
-function nowServing(line) {
+// function nowServing(line) {
   
-  var serving = line.shift(1)
-  return line
-}
+//   var serving = line.shift(1)
+//   return line
+// }
 
-console.log(nowServing([0,1,2,3]))
+// console.log(nowServing([0,1,2,3]))
