@@ -32,7 +32,7 @@ function currentLine(line) {
   for (let i = 0, i < line.length, i++) {
     currentLine = currentLine + `${parseInt(i) + 1}: ${line[i]}, `
   }
-  return line
+  return currentLine
 }
 
 console.log(currentLine('f','g','h'))
