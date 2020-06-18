@@ -16,10 +16,10 @@ function nowServing(line) {
   
   if (line.length === 0) {
     return "There is nobody waiting to be served!"
+  } else {
+    var serving = line.shift(1)
+    return serving
   }
-  
-  var serving = line.shift(1)
-  return serving
 }
 
 console.log(nowServing(['q','d','h']))
