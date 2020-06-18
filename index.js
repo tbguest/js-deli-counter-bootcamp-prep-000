@@ -34,7 +34,7 @@ function currentLine(line) {
   } else {
     for (let i = 0; i < line.length; i++) {
       if (i === parseInt(line.length)-1) {
-        currentLine = currentLine + `${parseInt(i) + 1}. ${line[i]}.`
+        currentLine = currentLine + `${parseInt(i) + 1}. ${line[i]}`
       } else {
         currentLine = currentLine + `${parseInt(i) + 1}. ${line[i]}, `
       }
