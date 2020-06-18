@@ -31,12 +31,15 @@ function currentLine(line) {
   
   if (line.length === 0) {
     return "The line is currently empty."
+  } else {
+    for (let i = 0; i < line.length; i++) {
+      if (i === parseInt(line.length)-1) {
+        currentLine = currentLine + `${parseInt(i) + 1}. ${line[i]}.`
+      }
+      currentLine = currentLine + `${parseInt(i) + 1}. ${line[i]}, `
+    }
+    return currentLine
   }
-  
-  for (let i = 0; i < line.length; i++) {
-    currentLine = currentLine + `${parseInt(i) + 1}. ${line[i]}, `
-  }
-  return currentLine
 }
 
 console.log(currentLine('f','g','h'))
