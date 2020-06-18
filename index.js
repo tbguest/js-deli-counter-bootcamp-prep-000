@@ -9,7 +9,7 @@ function takeANumber(line, name) {
   return `Welcome, ${name}. You are number ${line.length} in line.`
 }
 
-// console.log(takeANumber([0, 1, 2, 3], 'Ada'))
+console.log(takeANumber(['q','s','u'], 'Ada'))
 
 
 function nowServing(line) {
