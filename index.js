@@ -43,5 +43,5 @@ function currentLine(line) {
   }
 }
 
-console.log(currentLine([]))
+// console.log(currentLine([]))
 
