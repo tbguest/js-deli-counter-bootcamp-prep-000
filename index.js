@@ -22,6 +22,6 @@ function nowServing(line) {
   }
 }
 
-console.log(nowServing([]))
+// console.log(nowServing([]))
 
 
