@@ -12,7 +12,7 @@ function takeANumber(line, name) {
 function nowServing(line) {
   
   var serving = line.shift(1)
-  return line
+  return serving, line
 }
 
 console.log(nowServing([0,1,2,3]))
