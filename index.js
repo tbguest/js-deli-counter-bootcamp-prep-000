@@ -18,4 +18,4 @@ function nowServing(line) {
   return line
 }
 
-console.log(nowServing([0,1,2,3]))
+console.log(nowServing(['q','d','h']))
