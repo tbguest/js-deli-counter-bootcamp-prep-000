@@ -7,9 +7,6 @@ function takeANumber(line, name) {
   return `Welcome, ${name}. You are number ${line.length} in line.`
 }
 
-// console.log(takeANumber(['q','s','u'], 'Ada'))
-
-
 function nowServing(line) {
   
   if (line.length === 0) {
@@ -19,9 +16,6 @@ function nowServing(line) {
     return `Currently serving ${serving}.`
   }
 }
-
-// console.log(nowServing([]))
-
 
 function currentLine(line) {
   
@@ -40,6 +34,4 @@ function currentLine(line) {
     return currentLine
   }
 }
-
-// console.log(currentLine([]))
 
