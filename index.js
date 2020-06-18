@@ -11,7 +11,7 @@ function takeANumber(line, name) {
 
 function nowServing(line) {
   
-  return line.slice(1)
+  return line.shift(1)
 }
 
 console.log(nowServing([0,1,2,3]))
