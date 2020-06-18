@@ -27,10 +27,10 @@ function nowServing(line) {
 
 function currentLine(line) {
   
-  var currentLine = []
+  var currentLine = "The line is currently:"
   
   for (let i = 0, i < line.length, i++) {
-    currentLine.push(line[i])
+    currentLine.push(`${parseInt(i) + 1}: ${line[i]}`)
   }
   return line
 }
