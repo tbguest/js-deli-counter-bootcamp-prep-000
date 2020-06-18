@@ -29,6 +29,10 @@ function currentLine(line) {
   
   var currentLine = "The line is currently: ";
   
+  if (line.length === 0) {
+    return "The line is currently empty."
+  }
+  
   for (let i = 0; i < line.length; i++) {
     currentLine = currentLine + `${parseInt(i) + 1}. ${line[i]}, `
   }
