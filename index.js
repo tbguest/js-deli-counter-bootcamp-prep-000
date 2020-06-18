@@ -25,3 +25,8 @@ function nowServing(line) {
 // console.log(nowServing([]))
 
 
+function currentLine(line) {
+  return line
+}
+
+
