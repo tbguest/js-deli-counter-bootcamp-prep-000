@@ -26,6 +26,12 @@ function nowServing(line) {
 
 
 function currentLine(line) {
+  
+  var currentLine = []
+  
+  for (let i = 0, i < line.length, i++) {
+    currentLine.push(line[i])
+  }
   return line
 }
 
