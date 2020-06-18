@@ -13,3 +13,5 @@ function nowServing(line) {
   
   return line.slice(1)
 }
+
+console.log(nowServing)
